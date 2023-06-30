@@ -1,0 +1,85 @@
+body {    
+    background: url(2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*  p{
+    text-align: center ;
+    color: gold;
+    font-family:oblique;
+    font-size: 50px;
+}
+/*  */
+
+.signup{
+    background: #ffffff7c;
+    padding: 40px;
+    width: 250px;
+    margin-top:90px ;
+   margin-left: 180px;
+    margin: 0 auto ;
+   /*  font-style:italic ;/*  */
+  
+}
+
+form{
+    width: 240px;
+    text-align:center ;
+    margin-top: -10px;
+}
+input{
+    width:240px ;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid cyan;
+    font-size: 18px;
+    font-weight:200px ;
+    padding:10px 0;
+    transition: border 0.5s ;
+    outline: none;
+    height:35px ;
+    color: black;
+}
+
+button {
+    border: none;
+    width:180px ;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background: black;
+}
+h2{
+    color: gold;
+}
+a{
+    color: gold;
+}
+a:hover{
+    color: cyan;
+}
+.login{
+    text-align: center;
+    margin-top: -20px;
+}
+  /*  @media(logo.jpg){
+    width: 30px;
+    height: 30px;
+    }
+  
+/*  */
+::placeholder {
+    color: black;
+    opacity:0.6;
+    
+}
+.login{
+    color: black;
+}
